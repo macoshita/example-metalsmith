@@ -1,6 +1,24 @@
 ---
 title: Gulp + Metalsmith + BrowserSync
-template: post.html
+template: layout.jade
 ---
 
-Hello.
+## Markup
+
+- Markdown
+- Jade
+- plain HTML
+
+## Template Engine
+
+- jade
+
+## CSS
+
+- stylus
+- sass
+
+This content is written by Markdown + Stylus.
+Jade + Sass sample is [here](jade-sample.html)
+
+Enjoy Metalsmith !!

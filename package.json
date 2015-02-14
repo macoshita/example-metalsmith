@@ -1,20 +1,33 @@
 {
   "name": "example-metalsmith",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "## Install gulp",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.0.1",
+    "del": "^0.1.3",
+    "gulp": "^3.8.11",
+    "jade": "^1.9.2",
+    "metalsmith": "^0.10.0",
+    "metalsmith-jade": "0.0.4",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-sass": "^0.6.1",
+    "metalsmith-stylus": "^0.2.1",
+    "metalsmith-templates": "^0.5.2",
+    "require-dir": "^0.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "handlebars": "^2.0.0-beta.1",
-    "metalsmith": "^0.10.0",
-    "metalsmith-markdown": "^0.2.1",
-    "metalsmith-templates": "^0.5.2"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macoshita/example-metalsmith.git"
   },
-  "devDependencies": {
-    "browser-sync": "^1.3.6",
-    "del": "^0.1.2",
-    "gulp": "^3.8.7"
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macoshita/example-metalsmith/issues"
+  },
+  "homepage": "https://github.com/macoshita/example-metalsmith"
 }
